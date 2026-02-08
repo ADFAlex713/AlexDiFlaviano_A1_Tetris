@@ -77,11 +77,6 @@ public class Board : MonoBehaviour
     {
         activePiece = Instantiate(piecePrefab);
 
-        // This spawns a random tetronimo at the beginning of every turn
-        //Tetronimo t = (Tetronimo)Random.Range(0, tetronimos.Length);
-
-        //Tetronimo t = Tetronimo.U;
-
         if(turn == 0)
         {
             Tetronimo t = Tetronimo.U;
@@ -148,7 +143,7 @@ public class Board : MonoBehaviour
 
         activePiece = null;
 
-        tilemap.ClearAllTiles();
+        //tilemap.ClearAllTiles();
 
         SpawnPiece();
     }

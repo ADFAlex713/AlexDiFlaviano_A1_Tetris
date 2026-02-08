@@ -49,6 +49,7 @@ public class TetrisManager : MonoBehaviour
         {
             score = 0;
             ChangeScore(0);
+            timeRemaining = 0f;
         }    
 
         OnGameOver.Invoke();

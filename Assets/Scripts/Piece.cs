@@ -84,7 +84,6 @@ public class Piece : MonoBehaviour
         {
             board.CheckBoard();
             board.SpawnPiece();
-            //board.count++;
         }
     }
 
